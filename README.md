@@ -25,15 +25,15 @@ An example visualization of an EPL soccer game is shown below.
 ![Soccer Game Analysis](https://github.com/arvindsastha/Soccer-Game-Analysis/blob/master/socnet-soccer.PNG)
 </br>
 
-Once you visualize a soccer game as a social network in the form of a graph with players as nodes and passes as edges, it opens up a new dimension to the analysis of a game. There are various kinds of analysis that can be done on a social network as we know. Namely, finding churn in that network, investigating key player problem, discovering communities within a network and so on. Now, if we think about it, all these could be applied to a soccer game as well. If we can do a chrun analysis on the crowd/fanbase on specific intervals of a game it could tell us a lot about how the game went on. If we can find out the set of key players in the field, it could benefit the team from understanding their nature and building the team around those players. If we can discover a strongly connected component within that network of passes, we can easily identify the midfield trio that most teams are struggling to crack. This is an example based on several works in the field of Social Network Analysis. But there are a lot more that can be done wih these type of stats.
+Once you visualize a soccer game as a social network in the form of a graph with players as nodes and passes as edges, it opens up a new dimension to the analysis of a game. There are various kinds of analysis that can be done on a social network as we know. Namely, finding churn in that network, investigating key player problem, discovering communities within a network and so on. Now, if we think about it, all these could be applied to a soccer game as well. If we can do a churn analysis on the crowd/fanbase on specific intervals of a game it could tell us a lot about how the game went on. If we can find out the set of key players in the field, it could benefit the team from understanding their nature and building the team around those players. If we can discover a strongly connected component within that network of passes, we can easily identify the midfield trio that most teams are struggling to crack. This is an example based on several works in the field of Social Network Analysis. But there are a lot more that can be done wih these type of stats.
 
 ## Analysis using Socnet ##
 `Game in Discussion: Bayern vs Dortmund, March 5 2016`
 `Score: 0-0`
 
-The game totally had around 1100 passes approximately. With the help of Socnet Visualizer, we can easily obtain the network of passes. We can also state some obvious facts from looking at this network. On analysing the network of Bayern players, it was found that there were few offensive plays. This could be easily pointed out from the fact there were very few passes that made to the offensive players from the midfield and the network density was much larger between midfield and defence. 
+The game totally had around 1100 passes approximately. With the help of Socnet Visualizer, we can easily obtain the network of passes. We can also state some obvious facts from looking at this network. On analysing the network of Bayern players, it was found that there were few offensive plays. This could be easily pointed out from the fact there were very few passes that were made to the offensive players from the midfield and also the network density was much larger between midfield and defence. 
 
-If we do the key player investigation (KP-1),
+If we do the key player investigation (KP-1), following are the scores that were obtained based on [Borgatti](https://pdfs.semanticscholar.org/ddfa/6c05380ae7af63ac68e0e6fe020c44d688c4.pdf).
 
 | Player | KP-score based on fragmentation |
 | ---- | ---- |
@@ -50,6 +50,6 @@ If we do the key player investigation (KP-1),
 
 Based on these scores, we can easily see the key players in the build-up play. It would help Pep to generate a mind map of game and would help him further investigate the draw.
 
-On the other side, this data could also be used by opponent to stop bayern from building from the back. It could light up those key players who are responsible for offensive attacks. Even if one of them were neutralized, the network/team would lose it's shape and become disconnected.
+On the other side, this data could also be used by opponent to stop bayern from building from the back. It could light up those key players who are responsible for offensive attacks. Even if one of them were neutralized, the network/team would lose it's shape and becomes disconnected.
 
 This is just an example analysis with passing statistics.
