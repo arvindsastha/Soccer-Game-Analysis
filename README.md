@@ -1,5 +1,5 @@
 # Soccer-Game-Analysis
-The idea is to visualize and analyze a soccer game using Socnet Visualization tool.
+The idea is to visualize a soccer game as a social network with edges denoting number of passes between players/nodes. Once a network is drawn, one can perform analysis on the drawn network to draw insights about the game. An example is shown below. The project involves no written code; rather application of a tool that aids building and analyzing the soccer game network.
 
 ## Socnet Visualization Tool ##
 Social Network Visualizer (SocNetV) is a cross-platform, user-friendly free software application for social network analysis and visualization. 
